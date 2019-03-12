@@ -1,7 +1,7 @@
 +++
 title = "Deploying our app using Amplify Console"
 chapter = false
-weight = 120
+weight = 10
 +++
 
 ### Commit your Application to Source Control.
