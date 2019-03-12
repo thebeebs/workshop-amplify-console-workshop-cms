@@ -35,7 +35,8 @@ For us these variables are going to be the WordPress connection information used
 
 ### Save and Deploy
 
-Review all of your settings to ensure everything is set up correctly. Choose **Save and deploy** to deploy your web app to a global content delivery network (CDN). Your front end build typically takes 1 to 2 minutes but can vary based on size of the app. 
+Review all of your settings to ensure everything is set up correctly. Choose **Save and deploy** to deploy your web app to a global content delivery network (CDN). 
+Your front end build typically takes 1 to 2 minutes but can vary based on size of the app. 
 
 ![Deploy]('/images/deploy-4.png')
 
@@ -50,6 +51,8 @@ Access the build logs screen by selecting a progress indicator on the branch til
 4. **Verify** - To verify that your app works correctly, Amplify renders screen shots of the index.html in multiple device resolutions using Headless Chrome.
 
 ![Deploy]('/images/deploy-5.png')
+
+![Deploy]('/images/deploy-6.png')
 
 
 
