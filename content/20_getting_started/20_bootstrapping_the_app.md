@@ -7,7 +7,7 @@ weight = 20
 ### Creating a Gatsby site
 We'll get things started by building a new Gatsby app using the **gatsby** CLI tool. 
 
-### In the terminal (locally or in Cloud 9), run
+### In the terminal run
 
  ```
  npm install -g gatsby-cli

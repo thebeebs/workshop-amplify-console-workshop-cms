@@ -16,11 +16,3 @@ The S3 Buckets that Amplify created will not be automatically deleted. To delete
 
 3. Delete any buckets created by Amplify Console
 
-
-### Deleting the Cloud9 Workspace
-
-1. Go to your [Cloud9 Environment](https://us-east-1.console.aws.amazon.com/cloud9/home)
-
-2. Select the environment named **workshop** and pick **Delete**
-
-3. **Type the phrase** 'Delete' into the confirmation box and click **Delete**
