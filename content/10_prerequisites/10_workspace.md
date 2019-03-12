@@ -3,10 +3,6 @@ title = "Workspace"
 chapter = false
 weight = 10
 +++
----
-title: Set Up Your Development Environment
-typora-copy-images-to: ./
----
 
 ## Install Node.js
 
