@@ -279,4 +279,10 @@ exports.createPages = ({ actions, graphql }) => {
 }
 ```
 
+You should now be able to go to the url: http://localhost:8000/pandas-and-bananas and see a blog post.
+
+{{% notice tip %}}
+Try updating Index.js to include a link to the blog post detail from the list of blog posts.
+{{% /notice %}}
+
 This should get you started on some basic markdown power in your Gatsby site. You can further customise the `frontmatter` and the template file to get desired effects!
