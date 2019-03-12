@@ -1,43 +1,61 @@
 +++
-title = "Create a Cloud9 Workspace"
+title = "Workspace"
 chapter = false
 weight = 10
 +++
+---
+title: Set Up Your Development Environment
+typora-copy-images-to: ./
+---
 
-{{% notice info %}}
-If you have a local text editor (Such as VS Code), git and node installed on your machine you can run this workshop on your local machine. Otherwise you might want to use a Cloud 9 environment.
-{{% /notice %}}
+## Install Node.js
 
-AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes prepackaged with essential tools for popular programming languages, including JavaScript, Python, PHP, and more, so you don't need to install files or configure your development machine to start new projects.
+Node.js is an environment that can run JavaScript code outside of a web browser. Gatsby is built with Node.js. To get up and running with Gatsby, you’ll need to have a recent version installed on your computer.
 
-{{% notice warning %}}
-The Cloud9 workspace should be built by an IAM user with Administrator privileges,
-not the root account user. Please ensure you are logged in as an IAM user, not the root
-account user.
-{{% /notice %}}
+_Note: Gatsby's minimum supported Node.js version is Node 8, but feel free to use a more recent version._
 
-{{% notice info %}}
-Ad blockers, JavaScript disablers, and tracking blockers should be disabled for
-the cloud9 domain, otherwise connecting to the workspace might be impacted.
-{{% /notice %}}
+### ⌚ Download Node.js
 
-### Create a new environment
+Visit the [**Node.js site**](https://nodejs.org/) and follow the instructions to download and install the recommended version for your operating system. Once you have followed the installation steps, make sure everything was installed properly:
 
-1. Go to the [Cloud9 web console](https://us-east-1.console.aws.amazon.com/cloud9/home?region=us-east-1)
-1. Select **Create environment**
-1. Name it **workshop**, and go to the **Next step**
-1. Select **Create a new instance for environment (EC2)** and pick **t2.medium**
-2. Leave all of the environment settings as they are, and go to the **Next step**
-3. Click **Create environment**
+### Check your Node.js installation
 
-### Clean up the layout
+1.  Open up your terminal.
+2.  Run `node --version`. (If you’re new to the command line, “run `command`” means “type `node --version` in the command prompt, and hit the Enter key”. From here on, this is what we mean by “run `command`”).
+3.  Run `npm --version`.
 
-When the environment comes up, customize the layout by closing the **welcome tab**
-and **lower work area**, and opening a new **terminal** tab in the main work area:
-![c9before](/images/c9before.png)
+The output of each of those commands should be a version number. Your versions may not be the same as those shown below! If entering those commands doesn’t show you a version number, go back and make sure you have installed Node.js.
 
-Your workspace should now look like this:
-![c9after](/images/c9after.png)
+## Familiarize yourself with npm
 
-If you like this theme, you can choose it yourself by selecting **View / Themes / Solarized / Solarized Dark**
-in the Cloud9 workspace menu.
+npm is a JavaScript package manager. A package is a module of code that you can choose to include in your projects. If you just downloaded and installed Node.js, npm was installed with it!
+
+## Install Git
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. When you install a Gatsby "starter" site, Gatsby uses Git behind the scenes to download and install the required files for your starter. You will need to have Git installed to set up your first Gatsby site.
+
+The steps to download and install Git depend on your operating system. Follow the guide for your system:
+
+- [Install Git on macOS](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
+- [Install Git on Windows](https://www.atlassian.com/git/tutorials/install-git#windows)
+- [Install Git on Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
+
+> 💡 You will not need to know Git to complete this tutorial, but it is a very useful tool. If you are interested in learning more about version control, Git, and GitHub, check out GitHub's [Git Handbook](https://guides.github.com/introduction/git-handbook/).
+
+## Using the Gatsby CLI
+
+The Gatsby CLI tool lets you quickly create new Gatsby-powered sites and run commands for developing Gatsby sites. It is a published npm package.
+
+The Gatsby CLI is available via npm and should be installed globally by running `npm install -g gatsby-cli`.
+
+To see the commands available to run `gatsby --help`.
+
+> 💡 If you are unable to successfully run the Gatsby CLI due to a permissions issue, you may want to check out the [npm docs on fixing permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions), or [this guide](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md).
+
+## Set up a code editor
+
+A code editor is a program designed specifically for editing computer code. There are many great ones out there.
+
+> If you haven't worked with a code editor before, we recommend [**VS Code**](https://code.visualstudio.com/).
+
+ If you choose to use VS Code, visit the [VS Code site](https://code.visualstudio.com/#alt-downloads) and download the version appropriate for your platform.
