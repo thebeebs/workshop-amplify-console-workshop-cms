@@ -10,22 +10,22 @@ Create a Repository and commit your code to either GitHub, Bitbucket, GitLab, or
 ### Go to the Amplify Console 
 To get started, log in to the [Amplify Console](https://eu-west-1.console.aws.amazon.com/amplify/) and choose Get Started under Deploy.
 
-![Deploy]('/images/deploy-1.png')
+![Deploy](/images/deploy-1.png)
 
 ### Connect Repository
 Connect your GitHub, Bitbucket, GitLab, or AWS CodeCommit repositories. After you authorize the Amplify Console, Amplify fetches an access token from the repository provider, but it doesn't store the token on the AWS servers. Amplify accesses your repository using deploy keys installed in a specific repository only.
 
-![Deploy]('/images/deploy-2.png')
+![Deploy](/images/deploy-2.png)
 
 You will need to select the repository and the branch you want to build from.
 
-![Deploy]('/images/deploy-3.png')
+![Deploy](/images/deploy-3.png)
 
- ### Confirm Build Settings for the Front End
+### Confirm Build Settings for the Front End
 
 For the selected branch, Amplify inspects your repository to automatically detect the sequence of build commands to be executed. 
 
-![Deploy]('/images/deploy-4.png')
+![Deploy](/images/deploy-4.png)
 
 ### Add Environment Variables
 
@@ -38,7 +38,7 @@ For us these variables are going to be the WordPress connection information used
 Review all of your settings to ensure everything is set up correctly. Choose **Save and deploy** to deploy your web app to a global content delivery network (CDN). 
 Your front end build typically takes 1 to 2 minutes but can vary based on size of the app. 
 
-![Deploy]('/images/deploy-4.png')
+![Deploy](/images/deploy-4.png)
 
 Access the build logs screen by selecting a progress indicator on the branch tile. A build has the following stages:
 
@@ -50,9 +50,9 @@ Access the build logs screen by selecting a progress indicator on the branch til
 
 4. **Verify** - To verify that your app works correctly, Amplify renders screen shots of the index.html in multiple device resolutions using Headless Chrome.
 
-![Deploy]('/images/deploy-5.png')
+![Deploy](/images/deploy-5.png)
 
-![Deploy]('/images/deploy-6.png')
+![Deploy](/images/deploy-6.png)
 
 
 
