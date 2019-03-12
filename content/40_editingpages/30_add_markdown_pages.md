@@ -238,6 +238,7 @@ Gatsby calls the `createPages` API (if present) at build time with injected para
 
 ```javascript:title=gatsby-node.js
 const path = require("path")
+const slash = require(`slash`)
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
