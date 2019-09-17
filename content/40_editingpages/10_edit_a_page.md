@@ -6,7 +6,7 @@ weight = 10
 
 Now that we have a basic site lets edit our index page.
 
-Open up the file `src/pages/index.js` and change line 11 to something different like **Hello South Africa**.
+Open up the file `src/pages/index.js` and change line 11 to something different like **Hello South Istanbul**.
 
 ![Edit Page](/images/edit-page-1.png)
 
